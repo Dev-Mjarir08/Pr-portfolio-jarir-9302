@@ -1,0 +1,109 @@
+@media (max-width: 768px) {
+    .hero .hero-text h1 {
+        font-size: 42px;
+    }
+
+    .hero-content .hero-text h2 {
+        font-size: 24px;
+    }
+
+    .hero-content .hero-text p {
+        font-size: 18px;
+    }
+
+    .description {
+        font-size: 16px;
+    }
+
+ .hero-sec-btn {
+        justify-content: center;
+    }
+
+.hero-sec-btn .btn {
+        padding: 12px 25px;
+        font-size: 14px;
+    }
+
+    .hero .profile-box {
+        width: 300px;
+        height: 300px;
+    }
+
+    .about .sec-header h2 {
+        font-size: 1.875rem;
+    }
+
+    .services .services-content .service-intro h2 {
+        font-size: 30px;
+        margin-bottom: 20px !important;
+    }
+
+    .services .service-card h3 {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 992px) {
+    .hero .hero-text {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .hero .hero-text h1 {
+        font-size: 56px;
+    }
+
+    .hero-content .hero-text h2 {
+        font-size: 28px;
+    }
+
+    .hero-content .hero-text p {
+        font-size: 20px;
+    }
+
+    .hero .profile-box {
+        width: 350px;
+        height: 350px;
+    }
+
+    .portfolio .portfolio-side-bar {
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+
+    .portfolio .side-bar-content {
+        flex-direction: row !important;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .portfolio .side-bar-content .nav-link {
+        padding: 8px 16px;
+        border: 1px solid color-mix(in srgb, #ececec, transparent 80%);
+        border-left-width: 3px;
+    }
+
+    .services .services-content .service-intro h2 {
+        font-size: 36px;
+    }
+
+}
+
+@media (max-width: 1199px) {
+    header {
+        left: -100%;
+    }
+
+    .offcanvas-xl {
+        position: static !important;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    header~main,
+    header~footer {
+        margin-left: 330px;
+    }
+}
+
